@@ -207,8 +207,7 @@ README.md
 /pass.txt
 /smb_users.txt
 /smb_pass.txt
-/images/          
-/enum4_output.txt 
+
 ```
 
 > Atenção: não inclua senhas reais ou dados sensíveis se publicar em repositório público. No contexto deste laboratório as credenciais foram criadas/detectadas em VM controlada.
