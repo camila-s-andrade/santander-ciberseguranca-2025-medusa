@@ -185,8 +185,6 @@ Saídas mostraram shares como `tmp`, `opt`, `msfadmin`, `ADMIN$`, etc.
 * **DVWA (HTTP):** credenciais válidas encontradas `admin:password`.
 * **SMB:** `msfadmin:msfadmin` com acesso administrativo (ADMIN$) e listagem de shares.
 
-Evidências (sugestão): prints dos comandos e saídas guardados na pasta `/images/` (opcional).
-
 ---
 
 ## Recomendações de mitigação
