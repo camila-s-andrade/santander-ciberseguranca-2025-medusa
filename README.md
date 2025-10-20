@@ -1,6 +1,3 @@
-# santander-ciberseguranca-2025-medusa
-Laboratório: ataques de força bruta com Medusa (Kali → Metasploitable) — Santander · DIO 2025
-
 # Projeto: Simulação de Ataques de Força Bruta (Kali + Medusa)
 
 **Resumo**
@@ -53,7 +50,7 @@ Este repositório documenta um laboratório prático de ataques de força bruta 
 
 * VirtualBox instalado.
 * Imagens/VMs: Kali Linux e Metasploitable 2.
-* Ferramentas no Kali: `nmap`, `medusa`, `ftp`, `smbclient`, `enum4linux` (ou instaláveis via apt).
+* Ferramentas no Kali: `nmap`, `medusa`, `ftp`, `smbclient`, `enum4linux`.
 
 ---
 
@@ -128,7 +125,7 @@ Validação de acesso via cliente FTP:
 
 ```bash
 ftp msfadmin@192.168.56.104
-# inserir senha: msfadmin
+# inseri a senha: msfadmin
 # após login: "230 Login successful."
 ```
 
@@ -175,7 +172,7 @@ Após obter credenciais, listei shares com `smbclient`:
 
 ```bash
 smbclient -L //192.168.56.104 -U msfadmin
-# informar senha: msfadmin
+# informei a senha: msfadmin
 ```
 
 Saídas mostraram shares como `tmp`, `opt`, `msfadmin`, `ADMIN$`, etc.
@@ -212,8 +209,8 @@ README.md
 /pass.txt
 /smb_users.txt
 /smb_pass.txt
-/images/          # screenshots (opcional)
-/enum4_output.txt # saída do enum4linux (opcional)
+/images/          
+/enum4_output.txt 
 ```
 
 > Atenção: não inclua senhas reais ou dados sensíveis se publicar em repositório público. No contexto deste laboratório as credenciais foram criadas/detectadas em VM controlada.
